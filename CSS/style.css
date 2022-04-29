@@ -1,0 +1,67 @@
+ <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'helvetica', sans-serif;
+    background-image: url("https://github.com/Oyinbra/FreeCodeCamp-Survey-Form/raw/main/Images/form.jpg");
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #B15266;
+    color: white;
+    font-size: 12px;
+   }
+
+     #heading {
+    max-width: 750px;
+    margin: 65px auto;
+    padding: 10px;
+  }
+
+  #main {
+      padding: 0% 20% 0% 20%;
+  }
+
+    #title {
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.2;
+    padding: 10px;
+  }
+
+  #description {
+    font-size: 18px;
+    text-align: center;
+    padding: 3px;
+  }
+
+  #survey-form {
+    background-color: #2222425d;
+    padding: 50px 40px;
+    border-radius: 7px;
+  }
+
+  #submit {
+    background: #22d87d;
+    color: #fff;
+    padding: 10px;
+    font-size: 19px;
+    cursor: pointer;
+  }
+
+  #submit:hover {
+    background: rgb(9, 168, 89);
+  }
+
+  .form {
+  width: 100%;
+  padding: 11px;
+  border-radius: 6px;
+  font-size: 16px;
+  border: none;
+}
+    </style>
