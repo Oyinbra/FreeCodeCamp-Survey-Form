@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+   
+</head>
+
+<body>
+    <div id="heading">
+        <h1 id="title">FreeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <br>
+    </div>
+
+    <div id="main">
+        <form id="survey-form">
+            <div id="input-fields">
+                <label id="name-label"><b>Name</b></label><br><br>
+                <input type="text" id="name" required placeholder="Enter your name" class="form">
+                <br><br><br>
+                <label id="email-label"><b>E-mail</b></label><br><br>
+                <input type="email" id="email" required placeholder="Enter your E-mail" class="form">
+                <br><br><br>
+                <label id="number-label"><b>Age (Optional)</b></label><br><br>
+                <input type="number" id="number" min="10" max="99" placeholder="Age" class="form">
+                <br><br><br>
+            </div>
+
+            <div id="dropdown-label>">
+                <label><b>Which option best describes your current role?</b></label><br><br>
+                <select id="dropdown" class="form">
+                    <option selected hidden>Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full-Time-Job">Full Time Job</option>
+                    <option value="Full-Time-Learner">Full Time Learner</option>
+                    <option value="Prefer-not-to-say">Prefer not to say</option>
+                    <option value="Other">Other</option>
+                </select><br><br><br>
+            </div>
+
+            <div id="radio-label">
+                <label><b>Would you recommend freeCodeCamp to a friend?</b></label><br><br>
+                <input type="radio" name="indoor-outdoor" checked value="definitely">Definitely<br><br>
+                <input type="radio" name="indoor-outdoor" value="maybe">Maybe<br><br>
+                <input type="radio" name="indoor-outdoor" value="not-sure">Not sure
+                <br><br><br>
+            </div>
+            
+            <div id="dropdown">
+                <label><b>What is your favorite feature of freeCodeCamp?</b></label><br><br>
+                <select id="dropdown" class="form">
+                    <option selected hidden>Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="open-source">Open Source</option>
+                </select>
+                <br><br><br>
+            </div>
+            
+            <div id="button-area">
+                <label><b>What would you like to see improved? (Check all that apply)</b></label><br><br>
+                <input type="checkbox" value="Front end Projects">Front-end Projects<br><br>
+                <input type="checkbox" value="Back end Projects">Back-end Projects<br><br>
+                <input type="checkbox" value="Data Visualization">Data Visualization<br><br>
+                <input type="checkbox" value="Challenges">Challenges<br><br>
+                <input type="checkbox" value="Challenge">Open Source Community<br><br>
+                <input type="checkbox" value="Gitter help rooms">Gitter help rooms<br><br>
+                <input type="checkbox" value="Videos">Videos<br><br>
+                <input type="checkbox" value="City Meetups">City Meetups<br><br>
+                <input type="checkbox" value="Wiki">Wiki<br><br>
+                <input type="checkbox" value="Forums">Forums<br><br>
+                <input type="checkbox" value="Additional Courses">Additional Courses<br><br><br>
+            </div>
+
+            <div id="submit-area">
+                <p><b>Any comments or suggestions?</b></p><br>
+                <textarea class="form" style= "height:120px"; placeholder="Enter your comments here" ></textarea><br><br>
+                <input type="submit" value="Submit" id="submit" class="form">
+            </div>
+        </form>
+    </div>
+</body>
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
